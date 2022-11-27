@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header start */
+
+header{
+         padding: 20px 0px;
+         border-bottom: 2px solid rgb(233, 238, 231);
+}
+.container-full{
+   padding: 0 100px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.logo{
+   flex-basis: 20%;  
+}
+.logo img{
+    
+}
+nav{
+   flex-basis: 80%;  
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    color: #3b506c;
+    justify-content: flex-end;
+}
+nav ul li{ 
+}
+nav ul li a{
+     padding: 10px 20px; 
+     display: block;
+     text-decoration: none;
+     font-size: 16px;
+     color: #3b506c;
+}
+nav ul li a:hover{
+    color: navy;
+}
+/* header end */
+/* banner start */
+.banner{
+    padding: 60px 0;
+    align-items: center;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+}
+.container h1{
+    font-size: 60px;
+    color: rgb(8, 8, 46);
+    margin: auto;
+    text-align: center;
+}
+.container h1 span{
+    display: block;
+    color: #008aff;
+}
+.container p{
+    color: #3b506c;
+    font-size: 14px;
+    max-width: 590px;
+    margin: auto;
+    text-align: center;
+}
+/* banner end */
+/* feature start */
+ 
+.feature{
+    align-items: center;
+}
+.feature .container{
+    max-width: 700px;
+    display: flex;
+}
+.column1{
+    flex-basis: 50%;
+    padding: 15px;
+}
+.column2{
+    flex-basis: 50%;
+    padding: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.column1 h2{
+    color: #ff6585;
+    font-size: 50px;
+    font-weight: 900;
+}
+.column1 p{
+    color: #3b506c;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.column2 h3{
+    font-size: 46px;
+    color: #3b506c;
+    font-weight: 900;
+}
+/* feature end */
+/* service start */
+   /* footer start */
+   footer{
+    background-color: #126bb9;
+    margin-top: 10px;
+   }
+   .container-4{
+    margin: auto;
+    text-align: center;
+   }
+   .container-4 p{
+    font-size: 16px;
+    padding: 30px;
+    color: white;
+   }
+   .container-4 p a{
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: white;
+   }
+   /* footer end */
